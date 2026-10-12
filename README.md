@@ -86,7 +86,7 @@ isEmpty
 O(n) operations:
 none
 
-Why
+Why:
 Doubly linked, both ends reachable directly
 
 
