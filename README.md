@@ -1,7 +1,6 @@
 # Assignment-05-Stacks-Queues-and-Deques
 
-# Structure
-ArrayStack
+# Structure: ArrayStack
 
 0(1) operations:
 Push
