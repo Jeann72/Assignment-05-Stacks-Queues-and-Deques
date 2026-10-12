@@ -15,8 +15,7 @@ none
 Why:
 Just reading and writing one index
 
-# Structure:
-LinkedStack
+# Structure: LinkedStack
 
 0(1) operations:
 Push
@@ -30,8 +29,7 @@ none
 Why:
 Just moving the head pointer
 
-# Structure:
-ArrayQueue
+# Structure: ArrayQueue
 +0(1) operations:
 Enqueue
 Peek
@@ -44,8 +42,7 @@ dequeue
 Why:
 Has to shift every element left to fill the gap
 
-# Structure:
-LinkedQueue
+# Structure: LinkedQueue
 +0(1) operations:
 Enqueue
 Dequeue
@@ -59,8 +56,7 @@ Why:
 Front and back pointers, no shifting
 
 
-# Structure:
-ArrayDeque
+# Structure: ArrayDeque
 
 0(1) operations:
 PushBack
@@ -76,8 +72,7 @@ pushFront,popFront
 Why:
 Front ops shift every element to make room
 
-# Structure:
-LinkedDeque
+# Structure: LinkedDeque
 
 0(1) operations:
 PushFront
