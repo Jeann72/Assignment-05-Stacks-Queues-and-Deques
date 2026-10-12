@@ -3,67 +3,67 @@
 +Structure
 ArrayStack
 
-+0(1) operations
++0(1) operations:
 Push
 Pop
 Peek
 isEmpty
 getSize
 
-+O(n) operations
++O(n) operations:
 none
 
-+Why
++Why:
 Just reading and writing one index
 
-+Structure
++Structure:
 LinkedStack
 
-+0(1) operations
++0(1) operations:
 Push
 Pop
 Peek
 isEmpty
 
-+O(n) operations
++O(n) operations:
 none
 
-+Why
++Why:
 Just moving the head pointer
 
-+Structure
++Structure:
 ArrayQueue
-+0(1) operations
++0(1) operations:
 Enqueue
 Peek
 isEmpty
 getSize
 
-+O(n) operations
++O(n) operations:
 dequeue
 
-+Why
++Why:
 Has to shift every element left to fill the gap
 
-+Structure
++Structure:
 LinkedQueue
-+0(1) operations
++0(1) operations:
 Enqueue
 Dequeue
 Peek
 isEmpty
 
-+O(n) operations
++O(n) operations:
 none
 
-+Why
++Why:
 Front and back pointers, no shifting
 
 
-+Structure
++Structure:
 ArrayDeque
 
-+0(1) operations
++0(1) operations:
 PushBack
 popBack
 PeekFront
@@ -71,16 +71,16 @@ PeekBack
 isEmpty
 getSize
 
-+O(n) operations
++O(n) operations:
 pushFront,popFront
 
-+Why
++Why:
 Front ops shift every element to make room
 
-+Structure
++Structure:
 LinkedDeque
 
-+0(1) operations
++0(1) operations:
 PushFront
 pushBack
 popFront
@@ -89,7 +89,7 @@ peekFront
 peekBack
 isEmpty
 
-+O(n) operations
++O(n) operations:
 none
 
 +Why
