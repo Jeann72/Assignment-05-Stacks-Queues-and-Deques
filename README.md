@@ -1,6 +1,6 @@
 # Assignment-05-Stacks-Queues-and-Deques
 
-+Structure
+# Structure
 ArrayStack
 
 0(1) operations:
@@ -16,7 +16,7 @@ none
 Why:
 Just reading and writing one index
 
-+Structure:
+# Structure:
 LinkedStack
 
 0(1) operations:
@@ -31,7 +31,7 @@ none
 Why:
 Just moving the head pointer
 
-Structure:
+# Structure:
 ArrayQueue
 +0(1) operations:
 Enqueue
@@ -45,7 +45,7 @@ dequeue
 Why:
 Has to shift every element left to fill the gap
 
-+Structure:
+# Structure:
 LinkedQueue
 +0(1) operations:
 Enqueue
@@ -60,7 +60,7 @@ Why:
 Front and back pointers, no shifting
 
 
-+Structure:
+# Structure:
 ArrayDeque
 
 0(1) operations:
@@ -77,7 +77,7 @@ pushFront,popFront
 Why:
 Front ops shift every element to make room
 
-+Structure:
+# Structure:
 LinkedDeque
 
 0(1) operations:
